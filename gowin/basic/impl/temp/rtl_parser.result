@@ -1,0 +1,154 @@
+[
+ {
+  "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+  "InstLine" : 270,
+  "InstName" : "acg720_io_test",
+  "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+  "ModuleLine" : 270,
+  "ModuleName" : "acg720_io_test",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+    "InstLine" : 274,
+    "InstName" : "impl",
+    "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "acg720_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+      "InstLine" : 48,
+      "InstName" : "timer",
+      "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/clock_inputs.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "tick_gen"
+     },
+     {
+      "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+      "InstLine" : 50,
+      "InstName" : "inputs",
+      "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/clock_inputs.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "input_filter"
+     },
+     {
+      "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+      "InstLine" : 54,
+      "InstName" : "adc",
+      "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/adc128s102_acg720.v",
+      "ModuleLine" : 13,
+      "ModuleName" : "adc128s102_acg720"
+     },
+     {
+      "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+      "InstLine" : 62,
+      "InstName" : "enc",
+      "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/quadrature.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "quadrature"
+     },
+     {
+      "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+      "InstLine" : 66,
+      "InstName" : "velocity_filter",
+      "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/quadrature.v",
+      "ModuleLine" : 49,
+      "ModuleName" : "encoder_velocity_filter"
+     },
+     {
+      "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+      "InstLine" : 109,
+      "InstName" : "sensor",
+      "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/angle_sensor.v",
+      "ModuleLine" : 8,
+      "ModuleName" : "angle_sensor",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/angle_sensor.v",
+        "InstLine" : 48,
+        "InstName" : "divider",
+        "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/udiv32.v",
+        "ModuleLine" : 3,
+        "ModuleName" : "udiv32"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+      "InstLine" : 125,
+      "InstName" : "klen",
+      "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/key_len.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "key_len"
+     },
+     {
+      "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+      "InstLine" : 137,
+      "InstName" : "cal_guard",
+      "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_cal_guard.v",
+      "ModuleLine" : 5,
+      "ModuleName" : "acg720_cal_guard"
+     },
+     {
+      "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+      "InstLine" : 157,
+      "InstName" : "autorec",
+      "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/auto_recover.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "auto_recover"
+     },
+     {
+      "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+      "InstLine" : 190,
+      "InstName" : "traj",
+      "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/traj_gen.v",
+      "ModuleLine" : 5,
+      "ModuleName" : "traj_gen"
+     },
+     {
+      "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+      "InstLine" : 207,
+      "InstName" : "io_only.jog",
+      "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/diagnostic_jog.v",
+      "ModuleLine" : 6,
+      "ModuleName" : "diagnostic_jog"
+     },
+     {
+      "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+      "InstLine" : 212,
+      "InstName" : "io_only.observer",
+      "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/io_observer.v",
+      "ModuleLine" : 5,
+      "ModuleName" : "io_observer"
+     },
+     {
+      "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+      "InstLine" : 241,
+      "InstName" : "motor",
+      "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/motor_pwm.v",
+      "ModuleLine" : 5,
+      "ModuleName" : "motor_pwm"
+     },
+     {
+      "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+      "InstLine" : 254,
+      "InstName" : "logger",
+      "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/telemetry.v",
+      "ModuleLine" : 18,
+      "ModuleName" : "telemetry",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/telemetry.v",
+        "InstLine" : 27,
+        "InstName" : "serial",
+        "ModuleFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/telemetry.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "uart_tx"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

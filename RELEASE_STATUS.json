@@ -1,0 +1,108 @@
+{
+  "version": "ACG720 r54r13",
+  "firmware_tag": 42003,
+  "firmware_tag_hex": "A413",
+  "board": "ACG720 GW5AT-LV138PG484C1/I0",
+  "rtl_checks": 45,
+  "rtl_testbenches": 43,
+  "top_elaborations": 2,
+  "python_tests": 35,
+  "modelsim_version": "10.5b Altera Starter",
+  "modelsim_tests": [
+    {
+      "test": "tb_acg720_calibrate_start",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "test": "tb_acg720_r13_cal_guard",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "test": "tb_acg720_r13_feedback",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "test": "tb_r3_control_equivalence",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "test": "tb_r9_io_uart",
+      "passed": true,
+      "exit_code": 0
+    }
+  ],
+  "timing": {
+    "basic": {
+      "project": "basic",
+      "top": "acg720_top",
+      "device": "GW5AT-LV138PG484C1/I0",
+      "clock_mhz": 50,
+      "fmax_mhz": 59.194,
+      "setup_violations": 0,
+      "hold_violations": 0,
+      "seconds": 109.0,
+      "bitstream_sha256": "2492b8620de3c178e46c6601ccd31a884f7eb9b5fcc138acff599df61028b6a0"
+    },
+    "io_test": {
+      "project": "io_test",
+      "top": "acg720_io_test",
+      "device": "GW5AT-LV138PG484C1/I0",
+      "clock_mhz": 50,
+      "fmax_mhz": 76.479,
+      "setup_violations": 0,
+      "hold_violations": 0,
+      "seconds": 41.1,
+      "bitstream_sha256": "39304dd14681159d3b5984254ee33d4cf7254a06726ecd802e5e1b439fefad22"
+    }
+  },
+  "bitstreams": {
+    "acg720_top": {
+      "sha256": "2492b8620de3c178e46c6601ccd31a884f7eb9b5fcc138acff599df61028b6a0",
+      "bytes": 34690860
+    },
+    "acg720_io_test": {
+      "sha256": "39304dd14681159d3b5984254ee33d4cf7254a06726ecd802e5e1b439fefad22",
+      "bytes": 34690860
+    }
+  },
+  "hardware_tested": false,
+  "has_mechanical_plant_model": false,
+  "capture_balance_math_equivalence_samples": 9061,
+  "controller_rtl_unchanged": true,
+  "pendulum_feedback_direction_changed": true,
+  "trajectory_rtl_unchanged": true,
+  "encoder_reverse": 0,
+  "motor_reverse": 0,
+  "pendulum_reverse": 1,
+  "adc_average_samples": 512,
+  "control_period_ms": 1,
+  "pwm_hz": 40000,
+  "calibration_embedded": false,
+  "external_adc_delay_budget_inherited_not_measured": true,
+  "coordinate_pipeline_extra_clocks": 1,
+  "down_calibration": {
+    "release_required": true,
+    "stable_ms": 1000,
+    "adc_spread_max": 6,
+    "existing_average_ms": 64,
+    "automatically_rewrites_saved_pair": false
+  },
+  "manual_swing_preflight": {
+    "stable_ms": 200,
+    "min_abs_angle_mdeg": 165000,
+    "max_abs_rate_deg_s": 30,
+    "base_must_be_still": true
+  },
+  "protections": {
+    "travel_limit_counts": 780,
+    "swing_timeout_ms": 15000,
+    "fall_angle_mdeg": 30000,
+    "max_retries": 3,
+    "max_duty_permille": 400
+  },
+  "limitations": "Polarity is based on the supplied initial motor pulse; real-machine swing/capture/balance remain unverified."
+}

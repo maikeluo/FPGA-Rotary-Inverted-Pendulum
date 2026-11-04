@@ -1,0 +1,77 @@
+{
+ "Device" : "GW5AT-138C",
+ "Files" : [
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_cal_guard.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/io_observer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/diagnostic_jog.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/acg720_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/adc128s102_acg720.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/angle_sensor.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/auto_recover.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/balance_control.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/clock_inputs.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/fault_recovery.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/key_len.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/motor_pwm.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/quadrature.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/telemetry.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/traj_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/rtl/udiv32.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/newtest6/J280_v54r13_ACG720_DIRECTION_CAL_20261102/gowin/basic/impl/temp/rtl_parser.result",
+ "Top" : "acg720_top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

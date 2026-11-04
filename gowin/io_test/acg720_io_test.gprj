@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project><Template>FPGA</Template><Version>5</Version>
+<Device name="GW5AT-138C" pn="GW5AT-LV138PG484C1/I0">gw5at138c-013</Device>
+<FileList>
+    <File path="../../rtl/acg720_cal_guard.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/io_observer.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/diagnostic_jog.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/acg720_top.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/adc128s102_acg720.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/angle_sensor.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/auto_recover.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/balance_control.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/clock_inputs.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/fault_recovery.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/key_len.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/motor_pwm.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/quadrature.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/telemetry.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/traj_gen.v" type="file.verilog" enable="1"/>
+    <File path="../../rtl/udiv32.v" type="file.verilog" enable="1"/>
+    <File path="../../constraints/acg720.cst" type="file.cst" enable="1"/>
+    <File path="../../constraints/acg720.sdc" type="file.sdc" enable="1"/>
+</FileList></Project>

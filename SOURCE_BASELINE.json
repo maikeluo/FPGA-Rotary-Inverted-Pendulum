@@ -1,0 +1,54 @@
+{
+  "baseline": "J280_v54r12_ACG720_SWING_PHASE_20261102",
+  "baseline_rtl_sha256": {
+    "acg720_top.v": "98a0af8a4fb8a3421c63afc9399389619ce6967354ef2884c49153419b11dcb5",
+    "adc128s102_acg720.v": "fc56f675fea270676531aa1e9e4194786ee2f906897cd9b1f158c08113292bd8",
+    "adc_3pa1030.v": "06d7dfc9e6d879707016b8909e4993f995781e7c075c5d32a3fcb9ae49aaa3bf",
+    "angle_sensor.v": "8f4040dd89b4d4856d7d0701d96de3d99ae1c0c5351e611b3cfbf999335dc329",
+    "auto_recover.v": "ddf431d9a1c015d3d4a0f1ffa84de9234e3642caeb6ec12c9761d56bc8805da7",
+    "balance_control.v": "f439337e3efb60e06fe3fb34684d916772a9486008c9bcf81cfc36304e0f8981",
+    "clock_inputs.v": "226e3b020b36dc0458a4df130bccad29daefe57005b08eaef41a52f1cec20963",
+    "diagnostic_jog.v": "ad979d6b3d2969e347a7dccff13686be26be23f0ebd1d662dfe2ffc69b801322",
+    "fault_recovery.v": "ebc826641e68ff470671ef5126fcbc8ca6c64a77b527e1452017e300bd0b90d2",
+    "io_observer.v": "57eee98e99f6ee91b130fca866584b897abbccd027d9659be183750240fe371b",
+    "j280_top.v": "0b269b7d50e772bd32b343ce299cc0e619308a219a8196666937761a99d01f43",
+    "key_len.v": "17659d4dd36c62bfe0b0e9b4684fd25ecee6910bca3aa33ed7c20bafaaa36f97",
+    "motor_pwm.v": "a4bb386a513f232de363b06d15e12671c121efce4caa9e8bcef555276f86b041",
+    "quadrature.v": "ef7f0f630e9a92f6ab14f1f5e6a8d7e4683fce246896124683c1a9bf2684fbe2",
+    "telemetry.v": "05765b25effcf99b4ce0a00790d7d6d3599c194dda0d3843ee2afad26d569952",
+    "traj_gen.v": "68a61821c229ce393e28c9f642183a78927ba2d97b39ca439ada5441c57c3951",
+    "uart_cmd.v": "d278f187c86202cd2c13c31fca017af1e2e0e57f38750262b20d31a2e58fee3d",
+    "uart_rx.v": "6d54c95b2d7185848263498d17f67719a4209c4d5357b8463c7105402b25cb99",
+    "udiv32.v": "c9c578869cc1ff5865231c8f0631034f12f39fdb4715e28c75bd12f7b562b3fd"
+  },
+  "feedback_archive_sha256": "7a147f5915df62a0b45efd1905334c6db709ca2a1c58ee9ccce4cee0d9ab1018",
+  "changed_rtl": [
+    "acg720_top.v"
+  ],
+  "added_rtl": [
+    "acg720_cal_guard.v"
+  ],
+  "unchanged_rtl": {
+    "adc128s102_acg720.v": "fc56f675fea270676531aa1e9e4194786ee2f906897cd9b1f158c08113292bd8",
+    "adc_3pa1030.v": "06d7dfc9e6d879707016b8909e4993f995781e7c075c5d32a3fcb9ae49aaa3bf",
+    "angle_sensor.v": "8f4040dd89b4d4856d7d0701d96de3d99ae1c0c5351e611b3cfbf999335dc329",
+    "auto_recover.v": "ddf431d9a1c015d3d4a0f1ffa84de9234e3642caeb6ec12c9761d56bc8805da7",
+    "balance_control.v": "f439337e3efb60e06fe3fb34684d916772a9486008c9bcf81cfc36304e0f8981",
+    "clock_inputs.v": "226e3b020b36dc0458a4df130bccad29daefe57005b08eaef41a52f1cec20963",
+    "diagnostic_jog.v": "ad979d6b3d2969e347a7dccff13686be26be23f0ebd1d662dfe2ffc69b801322",
+    "fault_recovery.v": "ebc826641e68ff470671ef5126fcbc8ca6c64a77b527e1452017e300bd0b90d2",
+    "io_observer.v": "57eee98e99f6ee91b130fca866584b897abbccd027d9659be183750240fe371b",
+    "j280_top.v": "0b269b7d50e772bd32b343ce299cc0e619308a219a8196666937761a99d01f43",
+    "key_len.v": "17659d4dd36c62bfe0b0e9b4684fd25ecee6910bca3aa33ed7c20bafaaa36f97",
+    "motor_pwm.v": "a4bb386a513f232de363b06d15e12671c121efce4caa9e8bcef555276f86b041",
+    "quadrature.v": "ef7f0f630e9a92f6ab14f1f5e6a8d7e4683fce246896124683c1a9bf2684fbe2",
+    "telemetry.v": "05765b25effcf99b4ce0a00790d7d6d3599c194dda0d3843ee2afad26d569952",
+    "traj_gen.v": "68a61821c229ce393e28c9f642183a78927ba2d97b39ca439ada5441c57c3951",
+    "uart_cmd.v": "d278f187c86202cd2c13c31fca017af1e2e0e57f38750262b20d31a2e58fee3d",
+    "uart_rx.v": "6d54c95b2d7185848263498d17f67719a4209c4d5357b8463c7105402b25cb99",
+    "udiv32.v": "c9c578869cc1ff5865231c8f0631034f12f39fdb4715e28c75bd12f7b562b3fd"
+  },
+  "constraints_unchanged": true,
+  "original_top_parameters_unchanged": true,
+  "baseline_unchanged": true
+}
